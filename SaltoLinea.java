@@ -15,12 +15,9 @@ public class SaltoLinea {
      */
     public static void main(String[] args) {
         String var = "Variable";
-        System.out.println("PRUEBA1\n");
-        System.out.println(var + "\t" + var);
-        System.out.println("PRUEBA2\n");
-        System.out.println(var + "\n" + var);
-        System.out.println("PRUEBA3\n");
-        System.out.println(var + "\b" + var);
+        System.out.println("PRUEBA1 : "+ var + "\t" + var);
+        System.out.println("PRUEBA2 : "+ var + "\n" + var);
+        System.out.println("PRUEBA3 : "+ var + "\b" + var);
     }
 
 }

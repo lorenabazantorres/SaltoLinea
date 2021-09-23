@@ -17,7 +17,9 @@ public class SaltoLinea {
         String var = "Variable";
         System.out.println("PRUEBA1 : "+ var + "\t" + var);
         System.out.println("PRUEBA2 : "+ var + "\n" + var);
-        System.out.println("PRUEBA3 : "+ var + "\b" + var);
+        System.out.println("PRUEBA3 :"+ var + "\b" + var);
+	System.out.println("COMILLA SIMPLE :  \'"+ var + "\'");
+	System.out.println("COMILLA DOBLE:  \""+ var + "\"");
     }
 
 }
